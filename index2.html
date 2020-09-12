@@ -3,8 +3,32 @@
     <meta charset="UTF-8">
     <title>Caso practico #3</title>
     <meta name="description" content="Caso practico #3">
-  
  
+    <script>
+        alert("Page running!");
+   
+   var nombre;
+   nombre=prompt("Escriba su nombre");
+   document.write(nombre);
+   
+   function sumar(){
+   
+      var num1 = 5;
+      var num2 = 8;
+     suma = num1 + num2;
+     alert("La suma es: "+suma);
+   }
+   
+   function Saludar(nombre, edad){
+     
+     this.nombre = nombre;
+     this.edad = edad;  
+     console.log("Hola mi nombre es: "+ this.nombre + " y tengo: " + this.edad + " años." );
+   }
+   
+
+    </script>
+       Saludar(“Juan”, 24);
     <link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" media="all" />
@@ -27,12 +51,12 @@
         </div>
         <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/hero-image.jpg');
     }">
-    <div class="hero-text ">
-        <h1>BeBlack</h1>
+          <div class="hero-text ">
+         <h1>BeBlack</h1>
         <p>Short for beautiful black. A creative OnePager free to use.</p>
-    </div>
-</div>
-</header>
+         </div>
+       </div>
+     </header>
 <div class="wrapper">
     <main>
         <section class="intro" id="about-us">
